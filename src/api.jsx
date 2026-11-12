@@ -1,5 +1,5 @@
 // backend base url
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://task2-backened-production.up.railway.app/api";
 
 export async function apiRequest(path, method = "GET", body = null) {
   const token = localStorage.getItem("token");
